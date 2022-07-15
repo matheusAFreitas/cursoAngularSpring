@@ -1,4 +1,4 @@
-package com.matheus.crudspring.controller;
+package com.matheus.controller;
 
 import java.util.List;
 
@@ -6,12 +6,14 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.matheus.model.Course;
+
 @RestController
 @RequestMapping("/api/courses")
 public class CoursesController {
 
   @GetMapping
-  public List<Object> list() {
+  public List<Course> list() {
     return null;
   }
 

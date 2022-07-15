@@ -1,4 +1,4 @@
-package com.matheus.crudspring;
+package com.matheus;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
