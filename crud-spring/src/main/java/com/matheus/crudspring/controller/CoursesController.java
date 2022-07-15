@@ -1,16 +1,18 @@
 package com.matheus.crudspring.controller;
 
+import java.util.List;
+
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-@RestController()
-@RequestMapping("/api/hello")
-public class HelloController {
+@RestController
+@RequestMapping("/api/courses")
+public class CoursesController {
 
   @GetMapping
-  public String hello() {
-    return "hello";
+  public List<Object> list() {
+    return null;
   }
 
 }
